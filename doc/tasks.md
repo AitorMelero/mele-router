@@ -6,8 +6,8 @@
 - [x] Crear componente Link para hacerlo declarativo
 - [x] Crear componente Router para hacerlo más declarativo
 - [x] Soportar ruta por defecto (404)
-- [] Soportar rutas con parámetros
-- [] Componente <Route /> para hacerlo declarativo
+- [x] Soportar rutas con parámetros
+- [x] Componente <Route /> para hacerlo declarativo
 - [] Lazy Loading de las rutas
 - [] Testing
 - [] Publicar el paquete en NPM
