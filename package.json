@@ -15,7 +15,7 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "prepare": "npm run test && swc src/components src/utils src/index.jsx -d lib",
+    "prepare": "swc src/components src/utils src/index.jsx -d lib",
     "preview": "vite preview",
     "test": "vitest",
     "test:ui": "vitest --ui"
