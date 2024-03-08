@@ -1,6 +1,6 @@
 {
   "name": "mele-router",
-  "version": "0.0.2",
+  "version": "0.0.6",
   "type": "module",
   "main": "lib/index.js",
   "module": "lib/index.js",
@@ -15,9 +15,10 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "prepare": "swc src/components src/utils src/index.jsx -d lib",
+    "prepare": "npm run test && swc ./src/components ./src/utils ./src/index.jsx -d lib",
     "preview": "vite preview",
-    "test": "vitest",
+    "test": "vitest run",
+    "test:watch": "vitest",
     "test:ui": "vitest --ui"
   },
   "dependencies": {
