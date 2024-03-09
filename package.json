@@ -1,13 +1,13 @@
 {
   "name": "mele-router",
-  "version": "0.0.6",
+  "version": "0.0.8",
   "type": "module",
   "main": "lib/index.js",
   "module": "lib/index.js",
   "exports": {
     ".": {
-      "import": "./lib/index.js",
-      "require": "./lib/index.js"
+      "import": "./lib/src/index.js",
+      "require": "./lib/src/index.js"
     },
     "./package.json": "./package.json"
   },
