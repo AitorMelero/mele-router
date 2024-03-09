@@ -1,6 +1,6 @@
 {
   "name": "mele-router",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "type": "module",
   "main": "lib/index.js",
   "module": "lib/index.js",
@@ -10,6 +10,10 @@
       "require": "./lib/src/index.js"
     },
     "./package.json": "./package.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AitorMelero/mele-router"
   },
   "scripts": {
     "dev": "vite",
